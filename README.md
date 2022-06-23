@@ -8,7 +8,7 @@ At CHECK24, we search and present billions of offers to our customers every day,
 Now it's time for you to try that as well 😊☀️
 
 ## What is the challenge
-We provide you with ~72 million real offers for Mallorca that have been sampled randomly from our system.
+We provide you with [~72 million real offers](https://check24-holiday-challenge.s3.eu-central-1.amazonaws.com) for Mallorca that have been sampled randomly from our system.
 Build a simple version of a comparison service that supports users on their search for a trip to Mallorca.  
 You can look at [urlaub.check24.de](https://urlaub.check24.de) for inspiration. 
 Put your project on GitHub and use it to apply for the [GenDev Scholarship](https://check24.de/gen-dev).
@@ -18,8 +18,16 @@ Put your project on GitHub and use it to apply for the [GenDev Scholarship](http
   - a period of time when they want to travel
   - the number of persons (how many adults and how many children) that are travelling
   - one or multiple airports from where they want to travel
+  - the search form could look like something like [this](./images/search.png)
 - Your system then uses these parameters to search for available offers
-- The resulting offers are presented on a result page displaying the most relevant information to the users
+- The resulting offers are presented on a result page
+  - for most searches you will get a lot of offers ("7 days, 2 adults, somewhere in August 2022, starting from Munich" will return >100K offers for 1173 different hotels)
+  - therefore, it makes sense to show results in two different views:
+    1) show only one offer for every hotel (could look like [this](./images/result-all-hotels.png)) => for the example above, we would show 1173 items (one per hotel) 
+    2) show all offers for a single hotel (could look like [this](./images/result-single-hotel.png))
+  - a user gets from view 1 to view 2 by selecting one hotel (in the example screenshot from above he would click on "zu den Angeboten")
+  - users should be able to see and edit their search (this could be a filter on the left-hand side)
+  - you won't have images for the hotels, so you can either use a placeholder for images or you display results without showing images
 
 ### Some guidelines
 - you can freely choose the type of application you are building (app, webapp, website, ...)
@@ -29,25 +37,30 @@ Put your project on GitHub and use it to apply for the [GenDev Scholarship](http
 - try to focus on the most important things to produce a working prototype and do not spend too much time on details (e.g. it's totally fine to just display the airline code on the result page without mapping it to the full airline name first) 
 - please include a little README.md for your project
 
+### Possible improvements
 There are a lot of possible improvements and cool features you can add to your system.
 Just some ideas:
-- make your result page interactive (e.g. add pagination, sorting or filters that apply instantly) so that users can play around with their results
+- make your result page interactive (e.g. add pagination, sorting, filters that apply instantly) so that users can play around with their results
 - add more filters (e.g. mealtype or roomtype)
 - dockerize your system so that anyone can run it on their machine
-- focus on speed: try to make your search as fast as possible (e.g. you could try to implement a custom data structure to store all the offers in memory and no longer query them from a database)
+- focus on speed: try to make your search as fast as possible (e.g. you could try to make use of caching or to even implement a custom data structure to store all the offers in memory and no longer query them from a database)
 
 ### Note 
 This challenge is **not** about ticking boxes 
 (we give you basic requirements only to guide your project in the right direction).
 I should be a coding project that is fun for you to work on 😊
-There is no time limit. You can also work on it in a group of up to three people.
+There is no time limit. 
+You can also work on it in a group of up to three people.
+If you are working together, please try to split the work somehow evenly.
+Each group member has to apply for the scholarship on his own and include a link to the GitHub repo that includes the code.
+Include your GitHub username in your application then so that we can see who worked and committed on which parts of your project (so please make use of Git commits and don't provide us with one single big commit).
 
 ## Datasets
 We provide you with two datasets for this challenge.
-Both are stored on AWS S3.
+Both are stored in an [AWS S3 bucket](https://check24-holiday-challenge.s3.eu-central-1.amazonaws.com).
 
 ### Offers
-Rows in our [offer](https://check24-holiday-challenge.s3.eu-central-1.amazonaws.com/offers.parquet) dataset will look like this:
+Rows in our offer dataset will look like this:
 
 | hotelid | departuredate             | returndate                | countadults | countchildren | price | inbounddepartureairport | inboundarrivalairport | inboundairline | inboundarrivaldatetime    | outbounddepartureairport | outboundarrivalairport | outboundairline | outboundarrivaldatetime   | mealtype  | oceanview | roomtype    |
 |---------|---------------------------|---------------------------|-------------|---------------|-------|-------------------------|-----------------------|----------------|---------------------------|--------------------------|------------------------|-----------------|---------------------------|-----------|-----------|-------------|
@@ -68,22 +81,18 @@ For a description on the columns take a look at [offers.md](./offers.md).
 
 #### Let's take a look at a small example
 Which offers from the table above do match if I want to go to Mallorca with one additional person (so I am looking for an offer for two adults) for 7 days somewhere in July or August?
-
 As I am living in Hamburg (airport code for Hamburg is HAM), I also want to start and end my trip there.  
 The 2nd and the 7th offer from the table above match the time when I want to travel and are valid for 2 adults.
 Only the 7th offer includes the right airports (remember, I want to start my trip in Hamburg).
+So if your application only knows the 10 offers from the table above the result page would only display a single offer to me (the 7th one).
 
-=> So, if your application only knows the 10 offers from the table above, the result page would only display a single offer to me (the 7th one).
+#### File formats
+We provide the same dataset in two different file formats on S3:
+- [.parquet](https://check24-holiday-challenge.s3.eu-central-1.amazonaws.com/offers.parquet)
+- [.csv.zip](https://check24-holiday-challenge.s3.eu-central-1.amazonaws.com/offers.csv.zip)
 
-#### Why are the offers stored in a parquet file?
-The [parquet file format](https://parquet.apache.org/docs/) is very efficient and keeps our offers file smaller than 1GB.
-You can convert it to csv with python and pandas quite easily:
-
-```python
-import pandas as pd
-df = pd.read_parquet('./offers.parquet')
-df.to_csv('offers.csv')
-```
+You can choose the one you want to work with, they contain the same data.
+[Parquet](https://parquet.apache.org/docs/) is just a bit more efficient and is therefore smaller.
 
 ### Hotels
 Additionally, you can make use of a [second dataset](https://check24-holiday-challenge.s3.eu-central-1.amazonaws.com/hotels.csv). 
@@ -109,17 +118,3 @@ Provide READ permissions to [this GitHub account](https://github.com/Hackfred) t
 
 ## Questions?
 In case of any questions, contact martin.kellner@check24.de.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
