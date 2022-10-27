@@ -12,7 +12,7 @@ We provide you with [~72 million real offers](#datasets) for Mallorca that have 
 Build a simple version of a comparison service that supports users on their search for a trip to Mallorca.  
 You can look at [urlaub.check24.de](https://urlaub.check24.de) for inspiration. 
 Put your project on GitHub and use it to apply for the 2nd round of the [GenDev Scholarship](https://check24.de/gen-dev).
-Applications are open between 17th October and 13th November 2022.
+Applications are open between 17th October and 20th November 2022.
 
 ### Basic requirements that your application should fulfill
 - When searching for offers users should be able to enter the following parameters:
