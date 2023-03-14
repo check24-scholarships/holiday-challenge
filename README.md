@@ -1,6 +1,12 @@
 # CHECK24 GenDev Holiday Challenge
 
-> "*Summer is coming, let's go on holidays.*" 
+## Important: This challenge is currently being revised
+
+We are preparing this challenge for the third round of applications starting in April 2023.
+There will be substantial changes.
+Therefore, it's smart to wait until April when we have finalized that challenge. 
+
+> "*Summer is coming, let's go on holidays.*"
 
 Searching for a nice place to go and planning your next holiday is not just a fun activity for a lazy afternoon - 
 it is also an exciting problem to solve in IT.
