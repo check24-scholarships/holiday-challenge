@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  apimock:
+    image: wiremock/wiremock
+    ports:
+    - "8090:8080"
+    volumes:
+    - type: bind
+      source: ./apimock
+      target: /home/wiremock
+    command:
+      - -verbose
+      - -global-response-templating

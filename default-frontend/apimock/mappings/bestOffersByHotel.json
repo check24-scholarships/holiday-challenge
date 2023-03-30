@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/bestOffersByHotel.*"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "*",
+      "Content-Type": "application/json"
+    },
+    "body": "[ {{#each (array 'Iberostar Playa de Muro' 'Prinsotel La Pineda' 'Protur Palmeras Playa' 'Grupotel Gran Vista') as |hotel|}}{\"hotel\": {\"id\": {{randomInt lower=2 upper=1000000}}, \"name\": \"{{hotel}}\", \"stars\": {{randomInt lower=2 upper=5}} }, \"departureDate\": \"2023-01-01\", \"returnDate\": \"2023-01-08\", \"minPrice\": {{randomInt lower=100 upper=2500}}, \"countAdults\": 2, \"countChildren\": 1, \"mealType\": \"Breakfast\", \"roomType\": \"Apartment\", \"duration\": 7, \"countAvailableOffers\": {{randomInt lower=1 upper=1500}} } {{#unless @last}}, {{/unless}} {{/each}} ]"
+  }
+}
