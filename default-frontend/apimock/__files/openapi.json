@@ -1,0 +1,324 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "CHECK24 holiday challenge search API",
+    "version": "1"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8090"
+    }
+  ],
+  "paths": {
+    "/bestOffersByHotel": {
+      "get": {
+        "operationId": "getBestOffersByHotel",
+        "description": "get the best (i.e. cheapest) offer for every hotel that has at least one available offer for a given search",
+        "parameters": [
+          {
+            "name": "earliestDepartureDate",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "date"
+            }
+          },
+          {
+            "name": "latestReturnDate",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "date"
+            }
+          },
+          {
+            "name": "duration",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "countAdults",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "countChildren",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "departureAirports",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetBestHotelOffersResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/hotels/{hotelId}/offers": {
+      "get": {
+        "operationId": "GetHotelOffers",
+        "description": "get available offers for a given hotel",
+        "parameters": [
+          {
+            "name": "hotelId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "earliestDepartureDate",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "date"
+            }
+          },
+          {
+            "name": "latestReturnDate",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "date"
+            }
+          },
+          {
+            "name": "duration",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "countAdults",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "countChildren",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "departureAirports",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "a list of unique hotels",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetHotelOffersResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "GetBestHotelOffersResponse": {
+        "type": "array",
+        "items": {
+          "$ref": "#/components/schemas/BestHotelOffer"
+        }
+      },
+      "GetHotelOffersResponse": {
+        "type": "object",
+        "properties": {
+          "hotel": {
+            "$ref": "#/components/schemas/Hotel"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Offer"
+            }
+          }
+        },
+        "required": ["hotel", "items"]
+      },
+      "BestHotelOffer": {
+        "type": "object",
+        "required": [
+          "hotel",
+          "minPrice",
+          "departureDate",
+          "returnDate",
+          "countAdults",
+          "countChildren",
+          "duration",
+          "countAvailableOffers"
+        ],
+        "properties": {
+          "hotel": {
+            "$ref": "#/components/schemas/Hotel"
+          },
+          "minPrice": {
+            "type": "number"
+          },
+          "departureDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "returnDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "roomType": {
+            "type": "string"
+          },
+          "mealType": {
+            "type": "string"
+          },
+          "countAdults": {
+            "type": "integer"
+          },
+          "countChildren": {
+            "type": "integer"
+          },
+          "duration": {
+            "type": "integer"
+          },
+          "countAvailableOffers": {
+            "type": "integer"
+          }
+        }
+      },
+      "Hotel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "name": {
+            "type": "string"
+          },
+          "stars": {
+            "type": "number"
+          }
+        },
+        "required": ["id", "name", "stars"]
+      },
+      "Offer": {
+        "type": "object",
+        "properties": {
+          "price": {
+            "type": "number"
+          },
+          "countAdults": {
+            "type": "integer"
+          },
+          "countChildren": {
+            "type": "integer"
+          },
+          "inboundDepartureAirport": {
+            "type": "string"
+          },
+          "inboundDepartureDatetime": {
+            "type": "string",
+            "format": "date"
+          },
+          "inboundArrivalAirport": {
+            "type": "string"
+          },
+          "inboundArrivalDatetime": {
+            "type": "string",
+            "format": "datetime"
+          },
+          "outboundDepartureAirport": {
+            "type": "string"
+          },
+          "outbundDepartureDatetime": {
+            "type": "string",
+            "format": "date"
+          },
+          "outboundArrivalAirport": {
+            "type": "string"
+          },
+          "outboundArrivalDatetime": {
+            "type": "string",
+            "format": "datetime"
+          },
+          "mealType": {
+            "type": "string"
+          },
+          "oceanView": {
+            "type": "boolean"
+          },
+          "roomType": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "price",
+          "departureDate",
+          "returnDate",
+          "countAdults",
+          "countChildren",
+          "inboundDepartureAirport",
+          "inboundDepartureDatetime",
+          "inboundArrivalAirport",
+          "inboundArrivalDatetime",
+          "outboundDepartureAirport",
+          "outboundDepartureDatetime",
+          "outboundArrivalAirport",
+          "outboundArrivalDatetime",
+          "mealType",
+          "oceanView",
+          "roomType"
+        ]
+      }
+    }
+  }
+}

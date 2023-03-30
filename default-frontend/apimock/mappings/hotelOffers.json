@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/hotels/[0-9]*/offers.*"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "*",
+      "Content-Type": "application/json"
+    },
+    "body": "{\"hotel\": {\"id\": {{randomInt lower=2 upper=1000000}}, \"name\": \"Iberostar Playa de Muro\", \"stars\": 4.0}, \"items\": [ {{#each (array 'None' 'Breakfast' 'Halfboard' 'Fullboard') as |mealType|}}{\"price\": {{randomInt lower=100 upper=2500}}, \"countAdults\": 2, \"countChildren\": 1, \"mealType\": \"{{mealType}}\", \"roomType\": \"Apartment\", \"inboundDepartureAirport\": \"PMI\", \"inboundArrivalAirport\": \"MUC\", \"inboundDepartureDatetime\": \"2023-01-08T07:00:00Z\", \"inboundArrivalDatetime\": \"2023-01-08T10:00:00Z\", \"outboundDepartureAirport\": \"MUC\", \"outboundArrivalAirport\": \"PMI\", \"outboundArrivalDatetime\": \"2023-01-01T10:00:00Z\", \"outbundDepartureDatetime\": \"2023-01-01T07:10:00Z\", \"oceanView\": false, \"roomType\": \"double\" } {{#unless @last}}, {{/unless}} {{/each}} ] }"
+  }
+}

@@ -1,0 +1,999 @@
+hotelid;hotelname;hotelstars
+1;Iberostar Playa de Muro;4.0
+2;Prinsotel La Pineda;4.0
+3;BlueSea Gran Playa;3.0
+4;Grupotel Gran Vista & Spa;4.0
+5;Playa Esperanza Hotel;4.0
+6;Hotel Cala d'Or;4.0
+7;Valentin Paguera;3.0
+8;Hotel Vibra Beverly Playa;4.0
+9;Bonsol Hotel Resort & Spa;5.0
+10;Bon Aire Apartments;1.0
+11;Hotel Carabela;3.0
+12;Alua Gran Camp de Mar;4.0
+13;Fergus Club Europa;4.0
+14;Hilton Mallorca Galatzo;4.0
+15;Bahia del Sol;4.0
+16;Hotel y Apartamentos Casablanca;3.0
+17;Gaya;3.0
+18;Holiday Center;3.0
+19;Grupotel Nilo & Spa;4.0
+20;allsun Hotel Paguera Park;4.0
+21;H10 Blue Mar;4.0
+22;Globales Pionero;4.0
+23;Meliá Palma Marina;4.0
+24;Club Santa Ponsa ;3.0
+25;BQ Bulevar Peguera Hotel;4.0
+26;Roc Illetas Hotel;4.0
+27;Iberostar Selection Jardín del Sol Suites;4.0
+28;Globales Santa Ponsa Park;4.0
+29;HSM Solivera Hotel;4.0
+30;Hotel Son Caliu Spa Oasis;4.0
+31;Tora;3.0
+32;Venecia;3.0
+33;Secrets Mallorca Villamil Resort & Spa;5.0
+34;Villa Columbus;2.0
+35;Hostal Residencia Sutimar;3.0
+36;Mar Hotels Paguera & Spa and Apartments;4.0
+37;Hostal Villa Rosa;3.0
+38;Hotel Bonanza Park;4.0
+39;Hotel Palace Bonanza Playa & SPA;4.0
+40;Ponent Apartamentos;3.0
+41;Ponent Mar;4.0
+42;Sentido Fido Punta del Mar;4.0
+43;Flor Los Almendros Apartments;2.0
+44;Valentin Reina Paguera Hotel;4.0
+45;Globales Playa Santa Ponsa;3.0
+46;Plazamar Serenity Resort ;3.0
+47;Be Live Experience Costa Palma;4.0
+48;La Pérgola Aparthotel;4.0
+49;HSM Linda Playa;3.0
+50;Los Tilos Aparthotel;2.0
+51;Hotel Palmira Paguera & Suites;4.0
+52;BQ Paguera Boutique Hotel ;4.0
+53;Universal Aparthotel Don Camilo;4.0
+54;Sol House The Studio - Calvia Beach;4.0
+55;Tomir Portals Suites;4.0
+56;Hotel Bahia;4.0
+57;Bon Repos;2.0
+58;Zafiro Palmanova;4.0
+59;Sheraton Mallorca Arabella Golf Hotel;5.0
+60;Brismar;3.0
+61;Globales Cala Viñas;4.0
+62;Cupido Boutique Hotel;3.0
+63;Paguera Beach;4.0
+64;Maria Eugenia Pension;5.0
+65;Hotel de Mar Gran Melia;5.0
+66;Flor Los Almendros Hotel;3.0
+67;Gran Meliá Victoria;5.0
+68;Miranda;2.0
+69;Hotel Palmira Paradise & Suites;4.0
+70;allsun Hotel Bella Paguera;5.0
+71;allsun Hotel Cormoran;5.0
+72;Sol Wave House All Suites;4.0
+73;Zafiro Rey Don Jaime;4.0
+74;Grupotel Aguait Resort & Spa;4.0
+75;Prinsotel Alba;4.0
+76;Alcina;1.0
+77;Alondra;3.0
+78;Amoros;3.0
+79;Globales América;4.0
+80;Gavimar Ariel;3.0
+81;Protur Atalaya Apartamentos;3.0
+82;allsun Hotel Bahia del Este;5.0
+83;Hotel Bella Mar;3.0
+84;Bella Playa Hotel & Spa;4.0
+85;Hotel Cala Gat;4.0
+86;Guya Wave Hotel;3.0
+87;THB Cala Lliteras;4.0
+88;Club Hotel Cala Ratjada;3.0
+89;Baviera;3.0
+90;Capricho;3.0
+91;Singular Cala Ratjada;2.0
+92;Clumba;3.0
+93;Diamant Hotels;3.0
+94;THB Dos Playas;3.0
+95;Paradise Residencial;3.0
+96;Hostal Gami                   ;1.0
+97;THB Guya Playa;4.0
+98;allsun Hotel Lux de Mar;4.0
+99;Mar Azul Pur Estil Hotel & Spa;4.0
+100;Bell Port;3.0
+101;Parque Nereida Suites Hotel;3.0
+102;HSM Regana;4.0
+103;Quijote Park;3.0
+104;Marbel;2.0
+105;Hotel & Spa S'Entrador Playa ;4.0
+106;Serrano Palace;5.0
+107;Protur Turó Pins Hotel;4.0
+108;Chevy Hotel & Suites;3.0
+109;Vistasol;2.0
+110;D-H Anba Romani Hotel;3.0
+111;Hipotels Bahía Grande;4.0
+112;Biniamar;3.0
+113;allsun Hotel Borneo;5.0
+114;Hipotels Cala Millor Park;4.0
+115;Marins Beach Club;4.0
+116;CM Castell de Mar;4.0
+117;Aparthotel Ciudad Laurel;3.0
+118;Hipotels Don Juan;3.0
+119;Hipotels Dunas Cala Millor;4.0
+120;Hipotels Flamenco;4.0
+121;Hotel Girasol ;4.0
+122;Kyrat Amàrac;4.0
+123;Hipotels Hipocampo;4.0
+124;Hipotels Hipocampo Playa;4.0
+125;BlueSea Cala Millor;3.0
+126;Hoteles & Apartamentos La Santa Maria;3.0
+127;Hotel Marins Playa;4.0
+128;Hipotels Mercedes;3.0
+129;R2 Cala Millor Beach Apartments;3.0
+130;Hotel Ilusion Moreyo;1.0
+131;Hotel Apartamentos Morito;3.0
+132;CM Playa del Moro;4.0
+133;Sabina Playa;4.0
+134;Hipotels Said;4.0
+135;allsun Hotel Sumba;5.0
+136;Ilusion Vista Blava;3.0
+137;Voramar;3.0
+138;Inturotel Cala Azul;3.0
+139;Blue Sea Club Martha´s Resort;4.0
+140;Inturotel Esmeralda Park;3.0
+141;Gavimar La Mirada Club Resort;3.0
+142;Barceló Illetas Albatros;4.0
+143;Cupidor;3.0
+144;Hotel Morlans;5.0
+145;Hotel Diamante;2.0
+146;FERGUS Style Cala Blanca Suites;5.0
+147;Hostal Neptuno;3.0
+148;Be Live Adults Only Marivent;4.0
+149;FERGUS Style Tobago;5.0
+150;Villa Cati;2.0
+151;JS Yate;4.0
+152;Hotel Morlans Garden;3.0
+153;allsun Hotel Paguera ;4.0
+154;Sol Palmanova;4.0
+155;Sol Guadalupe;4.0
+156;Grupotel Acapulco Playa;4.0
+157;Indico Rock;4.0
+158;HM Balanguera Beach;4.0
+159;BQ Hotel Amfora Beach Hotel;4.0
+160;Hotel BQ Apolo;4.0
+161;Hotel Aya;4.0
+162;HM Ayron Park;5.0
+163;azuline Hotel Bahamas & Bahamas II;3.0
+164;Balear;3.0
+165;Ipanema Beach;3.0
+166;Hotel Vibra Palma Cactus;3.0
+167;tent Capi Playa;3.0
+168;BQ Carmen Playa Hotel;3.0
+169;Villa Chiquita;4.0
+170;Nura Condor;3.0
+171;Hotel Cosmopolitan;4.0
+172;allsun Hotel Cristobal Colon;4.0
+173;Universal Grand León & Spa;5.0
+174;Don Miguel Playa Hotel;3.0
+175;HM Dunas Blancas;4.0
+176;THB El Cid;4.0
+177;El Coto;4.0
+178;Hotel Príncipe;4.0
+179;allsun Hotel Marena Beach;4.0
+180;Apartments Es Trenc;3.0
+181;MySeaHouse Hotel Flamingo;5.0
+182;Aparthotel Fontanellas Playa;4.0
+183;Pure Salt Garonda;5.0
+184;tent Playa de Palma;3.0
+185;HSM Golden Playa;4.0
+186;HM Gran Fiesta;4.0
+187;Hispania;4.0
+188;Hotel Foners;3.0
+189;Ipanema Park;3.0
+190;Isla de Cabrera Aparthotel;4.0
+191;Jade;3.0
+192;Kilimanjaro;3.0
+193;allsun Hotel Kontiki Playa;4.0
+194;Cook's Club Palma Beach;3.0
+195;Leblon;1.0
+196;Leman;4.0
+197;Alua Leo;4.0
+198;Seramar Luna Park;3.0
+199;Hotel Luxor;4.0
+200;AluaSoul Palma;4.0
+201;Manaus;3.0
+202;Hotel Marbel;3.0
+203;THB Maria Isabel;4.0
+204;Martorell;3.0
+205;BLUESEA Mediodia;3.0
+206;Hotel Marina Playa;3.0
+207;Metropolitan Playa Hotel;5.0
+208;whala!fun;4.0
+209;Hotel Negresco;4.0
+210;Universal Hotel Neptuno;4.0
+211;Niagara;4.0
+212;Hotel Oleander;3.0
+213;MLL Mediterranean Bay;4.0
+214;Grupotel Orient;4.0
+215;Pabisa Orlando  ;3.0
+216;JS Palma Stay;4.0
+217;Paradiso Garden Hotel;4.0
+218;allsun Hotel Pil·larí Playa;5.0
+219;Hotel Playa Golf;4.0
+220;Planet One Hotel;3.0
+221;HSM Reina del Mar;3.0
+222;HSM Son Veri;3.0
+223;Pabisa Bali Tower;4.0
+224;Hotel Riu Bravo;4.0
+225;Hotel BG Caballero;4.0
+226;Hotel Pabisa Chico;4.0
+227;Hotel Riu Concordia;4.0
+228;Hotel Riu Festival;4.0
+229;Obelisco;4.0
+230;Hotel Riu Playa Park;3.0
+231;Hotel Riu San Francisco;4.0
+232;Pabisa Sofia;5.0
+233;Riutort;3.0
+234;allsun Hotel Riviera Playa;4.0
+235;Iberostar Cristina;4.0
+236;Iberostar Bahía de Palma;4.0
+237;Iberostar Selection Playa de Palma;5.0
+238;MLL Caribbean Bay;0.0
+239;Cassandra;2.0
+240;Hotel Java;4.0
+241;Hotel Timor;4.0
+242;HM Tropical;4.0
+243;THB Sur Mallorca;4.0
+244;Grupotel Taurus Park;4.0
+245;Houm Nets Hotel;2.0
+246;BlueSea Arenal Tower;3.0
+247;Torre Azul;4.0
+248;Tres Torres;2.0
+249;HSM Venus Playa;3.0
+250;Vista Odin;3.0
+251;Best Delta;4.0
+252;Globales Maioris;4.0
+253;BQ Belvedere Hotel;3.0
+254;Club Cala Romani ;3.0
+255;Beach Club Font de Sa Cala;4.0
+256;Playa Blanca Hotel;3.0
+257;Iberostar Club Cala Barca;4.0
+258;Hotel Cala d’Or Gardens Mallorca;3.0
+259;Hotel Cala Ferrera;3.0
+260;Gavimar Cala Gran Costa del Sur;3.0
+261;Hotel Club Cala Marsal;4.0
+262;Zafiro Cala Mesquida;4.0
+263;HSM Calas Park;3.0
+264;Canyamel Park Hotel & Appartements;4.0
+265;Universal Apartamentos Laguna Garden;3.0
+266;Iberostar Pinos Park;4.0
+267;BLUESEA Ses Cases d’Or;3.0
+268;Pierre & Vacances Apartamentos Mallorca Cecilia;3.0
+269;Insotel Cala Mandía Resort & Spa;4.0
+270;Ferrer Lime Isabel;3.0
+271;Condemar;1.0
+272;JS Portocolom Suites;4.0
+273;Hotel Club Es Talaial;3.0
+274;HYB Eurocalas;3.0
+275;Hipotels Eurotel Punta Rotja;4.0
+276;THB Felip;4.0
+277;MarSenses Ferrera Blanca;4.0
+278;Protur Floriana Resort Aparthotel;3.0
+279;Alua Suites Las Rocas;4.0
+280;Lliteras Appartements;2.0
+281;Hotel La Santa Maria Playa;3.0
+282;Protur Vista Badía Aparthotel;4.0
+283;Hotel Na Taconera Sport & Relax;3.0
+284;Hotel Baluma Porto Petro;3.0
+285;Peymar;3.0
+286;Pinomar;2.0
+287;Pinos Playa;3.0
+288;Playa Dorada;3.0
+289;Inturotel Esmeralda Park;3.0
+290;Playamar Hotel & Apartamentos;2.0
+291;Playa Mondrago;3.0
+292;Playa Moreya;5.0
+293;Barceló Aguamarina;4.0
+294;Hotel Palia Puerto del Sol;3.0
+295;MiM Mallorca;4.0
+296;Blau Punta Reina Resort;4.0
+297;Protur Sa Coma Playa Hotel & Spa;4.0
+298;THB Sa Coma Platja;4.0
+299;Hipotels Mediterráneo;4.0
+300;Sabina Hotel & Suites;4.0
+301;Globales Samoa;3.0
+302;Sinfony Apartamentos;5.0
+303;Monsuau Cala D´Or Boutique Hotel;4.0
+304;Sentido Fido Tucan;4.0
+305;Apartamentos Massanet;5.0
+306;Hotel Mariant;3.0
+307;Hotel Mariant Park;4.0
+308;Oasis d'Or;2.0
+309;Inturotel Cala Esmeralda Beach Hotel & Spa;4.0
+310;Marfil Playa;4.0
+311;Parque Mar;3.0
+312;ROBINSON Cala Serena;4.0
+313;Boutique Hostal Ventura;2.0
+314;R2 Verónica Beach Hotel;3.0
+315;Apartamentos Sureda;2.0
+316;HSM Canarios Park;3.0
+317;Sol y Mar;3.0
+318;S'Olivera Apartments;2.0
+319;Iberostar Selection Albufera Park;4.0
+320;Iberostar Selection Albufera Playa;4.0
+321;Eix Alcudia Hotel;4.0
+322;Alcudia Beach Aparthotel;3.0
+323;Innside by Melia Alcudia;4.0
+324;Iberostar Alcudia Park;4.0
+325;Grupotel Alcudia Suite;4.0
+326;BQ Alcudia Sun Village ;3.0
+327;Grupotel Amapola;3.0
+328;Hotel Astoria Playa;4.0
+329;Bahia de Alcudia Hotel & Spa ;4.0
+330;Bahia Pollensa;3.0
+331;Es Bauló Petit Hotel;4.0
+332;BelleVue Club;3.0
+333;Alua Boccaccio;4.0
+334;Cala Sant Vicenç;5.0
+335;JS Sol de Can Picafort;3.0
+336;Capri;3.0
+337;Carlos V Apartments;5.0
+338;Iberostar Ciudad Blanca;4.0
+339;BQ Can Picafort Hotel;4.0
+340;Ferrer Concord Hotel & Spa;4.0
+341;Globales Condes de Alcúdia;3.0
+342;Hotel Condesa;4.0
+343;Hotel Hoposa Daina;4.0
+344;BQ Delfín Azul Hotel;4.0
+345;Olive Beach Apartamentos;2.0
+346;Globales Don Pedro;4.0
+347;VIVA Eden Lago;4.0
+348;allsun Hotel Eden Alcudia;4.0
+349;Universal Aparthotel Elisa;4.0
+350;Hotel Es Molí;4.0
+351;Hotel Es Port;4.0
+352;Exagon Park;4.0
+353;Grupotel Farrutx;4.0
+354;Flora;3.0
+355;Galaxia Boutique Hotel;1.0
+356;FERGUS Style Soller Beach;4.0
+357;VIVA Golf;5.0
+358;THB Gran Bahía;4.0
+359;THB Gran Playa;4.0
+360;Habitat Apartments;3.0
+361;Illa d'Or Hotel;4.0
+362;Ivory Playa;3.0
+363;Ferrer Janeiro Hotel & Spa;4.0
+364;Zafiro Bahía;4.0
+365;La Residencia;5.0
+366;EIX Lagotel Holiday Resort;4.0
+367;Hotel Las Gaviotas Suites Hotel;4.0
+368;L'Hermitage Hotel & Spa;4.0
+369;Grupotel Los Principes & Spa;4.0
+370;Prinsotel Mal Pas;4.0
+371;Aparthotel Maracaibo;3.0
+372;Pure Salt Port de Sóller;4.0
+373;Alcudia Port Suites;5.0
+374;Grupotel Maritimo;4.0
+375;Ilusion Markus & Spa;3.0
+376;Miramar;2.0
+377;Nordeste Playa;3.0
+378;JS Miramar;3.0
+379;Hotel Niu;4.0
+380;Grupotel Molins;5.0
+381;Eden Nord;3.0
+382;Grupotel Montecarlo;4.0
+383;Grupotel Picafort Beach;4.0
+384;Eix Platja Daurada Hotel & SPA;4.0
+385;Hoposa Hotel Pollentia;4.0
+386;Grupotel Port d'Alcudia;4.0
+387;Bikini Island & Mountain Hotel Port de Sóller;3.0
+388;Inmood Aucanada;4.0
+389;BG Hotel Rei del Mediterrani Palace;4.0
+390;Romantic;3.0
+391;Hotel Sa Coma;3.0
+392;The Sea Hotel by Grupotel ;4.0
+393;BQ Sarah Hotel;3.0
+394;Sea Club Alcúdia Mediterranean Resort;3.0
+395;JS Sol de Alcudia;4.0
+396;Soller Garden;5.0
+397;Hotel Son Bauló;3.0
+398;Sultan Hotel;2.0
+399;VIVA Sunrise;4.0
+400;Zafiro Tropic;4.0
+401;Hoposa Hotel Uyal;4.0
+402;Villa Barbara;1.0
+403;Vista Park Hotel & Apartamentos;3.0
+404;Bordoy Continental Valldemossa;3.0
+405;Finca Ca N'ai;4.0
+406;Grupotel Dunamar;4.0
+407;HSM Lago Park;3.0
+408;Citric Hotel Soller;5.0
+409;Hotel Eden;4.0
+410;Hotel Marina & Wellness Spa;3.0
+411;Occidental Playa de Palma;4.0
+412;Hotel Helios Mallorca;3.0
+413;Hotel Rural Monnaber Nou & Spa;4.0
+414;Son Sama;5.0
+415;Finca Hotel Predio Son Serra;3.0
+416;Aumallia Hotel & Spa;4.0
+417;INNSIDE Palma Center;4.0
+418;FERGUS Style Palmanova;4.0
+419;Sol Katmandú Park & Resort;4.0
+420;Vistasol Apartamentos;3.0
+421;Innside Cala Blanca;4.0
+422;Aparthotel Novo Mar;3.0
+423;UR Portofino ;4.0
+424;TRH Jardin del Mar;3.0
+425;Hotel GPRO Valparaíso Palace & Spa;5.0
+426;Universal Hotel Cabo Blanco;4.0
+427;Andreas Apartments;3.0
+428;Bahia Suites;4.0
+429;Europe Playa Marina;4.0
+430;Bahia Principe Sunlight Coral Playa;4.0
+431;BelleVue Belsana;3.0
+432;Amazonas Hotel;3.0
+433;Gavimar Ariel Chico;3.0
+434;BelleVue Lagomonte;3.0
+435;allsun Hotel Eden Playa;5.0
+436;Aparthotel Cap de Mar;4.0
+437;best FAMILY Protur Safari Park;4.0
+438;Globales Cala Bona Suites;4.0
+439;ICON Valparaiso;3.0
+440;HM Alma Beach;4.0
+441;Hotel Seramar Comodoro Playa;4.0
+442;Sun Club Eldorado;2.0
+443;Los Geranios;4.0
+444;Catalonia Majorica;4.0
+445;Garden Holiday Village;4.0
+446;AluaSun Continental Park Hotel & Apartments;4.0
+447;HSM Club Torre Blanca ;3.0
+448;BlueSea Costa Verde;3.0
+449;Hotel Sant Jordi;3.0
+450;JS Cape Colom;3.0
+451;BlueSea Piscis;3.0
+452;Hotel Iris;3.0
+453;Playas de Paguera;2.0
+454;Hotel Cala Fornells;4.0
+455;Playa Sol;2.0
+456;Raxa;1.0
+457;Aldea 2 Cala Fornells;3.0
+458;Hotel Linda Mallorca;3.0
+459;Sa Bassa Plana;3.0
+460;Meliá South Beach;4.0
+461;Iberostar Cala Domingos;4.0
+462;AluaSun Torrenova;4.0
+463;Hotel Petit Cala Fornells;5.0
+464;Maristel Hotel & Spa;4.0
+465;Cook’s Club Calvia Beach;3.0
+466;Apartamentos Roc Portonova;3.0
+467;Portals Hills Boutique Hotel;5.0
+468;JS Alcudi Mar;4.0
+469;Grupotel Parc Natural & Spa;5.0
+470;BG Tonga Tower Design Hotel & Suites;5.0
+471;Hotel Seasun Siurell;3.0
+472;allsun Hotel Lago Playa Park;4.0
+473;Playa Garden Selection Hotel & Spa;4.0
+474;More;3.0
+475;Posada de's Moli;4.0
+476;Morlans Suites;2.0
+477;Petit Hotel Rural Son Jordà - Hotel Rural Restaurant;5.0
+478;Plaza Santa Ponsa Boutique Hotel;4.0
+479;D'Or Hotel;2.0
+480;Eurostars Marivent;3.0
+481;Flamboyan Caribe;4.0
+482;Tropico Playa Hotel;3.0
+483;Oberoy Hotel;4.0
+484;Paguera Treff Boutique Hotel;4.0
+485;Leonardo Royal Hotel Mallorca;4.0
+486;Embat;2.0
+487;BlueSea Don Jaime;3.0
+488;Atalaya Bosque;2.0
+489;Hotel Teide;2.0
+490;BQ Augusta Hotel;4.0
+491;Agroturisme Perola;3.0
+492;Hotel Amic Horizonte;3.0
+493;Blau Colonia Sant Jordi Resort & Spa;4.0
+494;Inturotel Azul Garden;3.0
+495;Hotel Vistamar Portocolom;4.0
+496;Hotel La Concha Soul;2.0
+497;Hotel Millor Sol;3.0
+498;Prinsotel La Dorada;4.0
+499;Virrey Finca Hotel;4.0
+500;Bendinat;4.0
+501;Apartamentos Europa;2.0
+502;Hotel Costa Mediterraneo;2.0
+503;Meliá Cala d'Or Boutique Hotel;5.0
+504;Atolon;3.0
+505;Pula Golf Resort;4.0
+506;Casal Santa Eulalia;4.0
+507;Finca Can Quatre;4.0
+508;Hotel Agua Beach;4.0
+509;Hotel Panorama;2.0
+510;JS Can Picafort;3.0
+511;Universal Hotel Perla;4.0
+512;JS Paradise Sport;3.0
+513;Hotel Amic Miraflores;3.0
+514;Castillo Hotel Son Vida;5.0
+515;Hipotels Hipocampo Palace & Spa;5.0
+516;Hipotels Bahía Cala Millor;4.0
+517;Hipotels Mediterráneo Club;4.0
+518;La Reserva Rotana;5.0
+519;Grupotel Mallorca Mar;4.0
+520;Canyamel Classic;4.0
+521;Hotel Playa;3.0
+522;ALEGRIA Alzinar Mar Suites;4.0
+523;Finca Monnàber Vell;4.0
+524;Son Marge;4.0
+525;Hotel Can Moragues Healthy & Wellness;4.0
+526;JS Horitzó;3.0
+527;Green Garden Aparthotel;4.0
+528;Nixe Palace;5.0
+529;Finca Son Menut;3.0
+530;Finca es Rafal;3.0
+531;Finca Hotel Rural Es Turó;4.0
+532;Hesperia Ciudad de Mallorca;4.0
+533;Universal Hotel Romantica;3.0
+534;Sallés Hotel Marina Portals;4.0
+535;Pula Suites Boutique Resort;5.0
+536;Costa Azul;4.0
+537;Possessió Binicomprat;4.0
+538;Bakour Garbi Cala Millor;4.0
+539;Dunes Platja;4.0
+540;S'Antigor Petit Hotel;3.0
+541;Club del Sol Aparthotel;4.0
+542;Bluewater Hotel;3.0
+543;CM Mallorca Palace;5.0
+544;Duva Aparthotel & Spa;4.0
+545;Saratoga;4.0
+546;allsun Hotel Illot Park;5.0
+547;Sa Bassa Rotja Ecoturisme;4.0
+548;Alcudia Garden Aparthotel;3.0
+549;Steigenberger Hotel & Resort Camp de Mar;5.0
+550;Es Puig de Ros d'Alt;4.0
+551;Catalonia Del Mar;4.0
+552;Globales Palmanova Palace;4.0
+553;Houm Plaza Son Rigo;3.0
+554;Protur Badía Park Aparthotel;4.0
+555;Lago Garden Hotel & Spa;5.0
+556;Hacienda Son Antem;5.0
+557;Alcudiamar Botel;4.0
+558;Be Live Collection Palace de Muro;5.0
+559;Universal Hotel Aquamarin;4.0
+560;Zafiro Can Picafort;4.0
+561;Finca Son Pieras;5.0
+562;Hotel Rural S'Olivaret;4.0
+563;BLUESEA Es Bolero;3.0
+564;Universal Casa Marquesa;3.0
+565;allsun App.-Hotel Orient Beach;5.0
+566;Fergus Barracuda;3.0
+567;Hotel Bordoy Don Antonio;4.0
+568;Valentin Park Club Hotel & Apartments;3.0
+569;Fenix Hotel;3.0
+570;Lindner Golf Resort Portals Nous;4.0
+571;Son Siurana;4.0
+572;H10 Casa del Mar;3.0
+573;BQ Aguamarina Boutique Hotel;4.0
+574;Ca'n Canals;3.0
+575;Globales Panama;4.0
+576;VIVA Blue & Spa;4.0
+577;Dalt Muntanya;3.0
+578;Grupotel Natura Playa;4.0
+579;HM Mar Blau;4.0
+580;Universal Hotel Castell Royal;4.0
+581;Son Trobat Wellness & Spa;4.0
+582;Son Sant Jordi;4.0
+583;Club S'Illot;3.0
+584;Nord;3.0
+585;Hotel Artmadams;4.0
+586;Hotel Mirador;4.0
+587;Hotel Sa Galera;4.0
+588;Palladium;3.0
+589;Hotel HM Jaime III;4.0
+590;Valentin Park Apartments;3.0
+591;Cala Millor Garden Hotel;4.0
+592;Mon Port Hotel & Spa;4.0
+593;Finca Hotel Son Palou;4.0
+594;Ca'l Bisbe;4.0
+595;Pure Salt Port Adriano;5.0
+596;The St. Regis Mardavall Mallorca Resort ;5.0
+597;Son Cleda;5.0
+598;Sa Rota d'en Palerm;4.0
+599;Be Live Adults Only La Cala Boutique;4.0
+600;Vell Marí Hotel & Resort;4.0
+601;Araxa;3.0
+602;Isla Mallorca Urban Hotel & Spa;4.0
+603;Samos;3.0
+604;Alfabia Nou Agroturismo;4.0
+605;Sa Taqueta de Fornalutx;4.0
+606;Na Forana;4.0
+607;Grupotel Playa de Palma Suites & Spa;4.0
+608;Universal Hotel Marqués;4.0
+609;Aparthotel Can Picafort Palace;4.0
+610;Can Simó Alcudia;4.0
+611;Globales Mimosa;4.0
+612;INNSIDE Palma Bosque;4.0
+613;Zafiro Mallorca;4.0
+614;Palma Bay Club Resort & Sahara-Nubia-Gobi Bay;3.0
+615;Aimia Hotel Port de Sóller;4.0
+616;Universal Hotel Lido Park & Spa;4.0
+617;Gran Hotel Soller;5.0
+618;Convent de la Missió Art & Urban Live;5.0
+619;Palm Garden Apartments;2.0
+620;Occidental Cala Viñas;4.0
+621;Valentin Playa de Muro;3.0
+622;BelleVue Vistanova;3.0
+623;tent Palmanova;3.0
+624;Petit Caimari;3.0
+625;Puro Hotel Palma;4.0
+626;Petit Palace Tres;4.0
+627;AC Hotel Ciutat de Palma;4.0
+628;Hotel Joan Miró Museum;4.0
+629;Hotel Hospes Maricel & Spa;5.0
+630;Carabela II Appertments;5.0
+631;Ikos Porto Petro;5.0
+632;Apartamentos Vista Alegre;5.0
+633;Aparthotel Club Simó;3.0
+634;Hoposa Costa d'Or;4.0
+635;VIVA Cala Mesquida Resort & Spa;4.0
+636;VIVA Cala Mesquida Suites & Spa Adults only 16+;5.0
+637;Hotel Mix Perú Playa;2.0
+638;Na Martina;5.0
+639;Finca Son Roig;4.0
+640;Hotel Can Simoneta;5.0
+641;Sant Salvador;5.0
+642;MarSenses Rosa del Mar Hotel & Spa;4.0
+643;Sol Cala d'Or Apartamentos;3.0
+644;MLL Blue Bay;3.0
+645;Apartamentos Villa Real;2.0
+646;Amic Can Pastilla;2.0
+647;Hotel Amic Gala;3.0
+648;PortBlue Club Pollentia Resort & Spa;4.0
+649;Chevy Hotel & Hostal Montesol;5.0
+650;BLUESEA Club Marthas;4.0
+651;Ipanema Park & Beach;3.0
+652;Isla de Cabrera Hotel;3.0
+653;Son Penya Petit;3.0
+654;Hotel Sercotel Zurbarán ;3.0
+655;Iberostar Selection Playa de Muro Village;5.0
+656;Mar Hotels Playa de Muro Suites;4.0
+657;Hotel Illot Suites & Spa;4.0
+658;Hotel Club Palia Dolce Farniente;3.0
+659;Globales Apartotel Bouganvilla;3.0
+660;Apartamentos Casa Vida;3.0
+661;Martha´s Imagine Suite;3.0
+662;Club Mac Alcudia;3.0
+663;Reverence Mare Hotel;5.0
+664;Pierre & Vacances Apartamentos Mallorca Deya;3.0
+665;Hotel Club Palia Maria Eugenia;4.0
+666;HSM Don Juan;3.0
+667;Hotel Florida Magaluf;4.0
+668;HM Martinique;4.0
+669;Fergus Club Palmanova Park;4.0
+670;THB Bamboo Alcudia;4.0
+671;Hotel Santa Ponsa Pins;3.0
+672;Palmanova Beach Apartments by TRH;4.0
+673;La Vila;4.0
+674;Golf Beach;2.0
+675;Almudaina;5.0
+676;Bordoy Continental Palma;4.0
+677;Hotel BG Pamplona;4.0
+678;Son Julia Country House;5.0
+679;HSM Sandalo Beach;3.0
+680;Dreams Calviá Mallorca;4.0
+681;HSM Atlantic Park;4.0
+682;Inturotel Esmeralda Garden;3.0
+683;M House Hotel;4.0
+684;AluaSoul Mallorca Resort;4.0
+685;Hotel Abelux;2.0
+686;OLA Apartamentos Cala d' Or;3.0
+687;Aparthotel Aquasol;3.0
+688;AluaSoul Alcudia Bay;4.0
+689;Cabot Pollensa Park Spa;5.0
+690;Globales Apartamentos Cala Viñas;3.0
+691;MarSenses Puerto Pollensa Hotel & Spa;4.0
+692;Niu d'Aus Apartments;3.0
+693;Pirates Village Apartments;3.0
+694;Jutlandia Family Resort;3.0
+695;Econotel Las Palomas;2.0
+696;Elba Sunset Mallorca;4.0
+697;Palmanova Suites by TRH Hotel;4.0
+698;FERGUS Bermudas;4.0
+699;Hoposa Hotel Bahia;3.0
+700;Montelín;5.0
+701;Apartamentos Massol;2.0
+702;Arcos Playa;5.0
+703;Globales Torrenova;3.0
+704;Sol Lunamar Apartamentos;3.0
+705;Alua Palmanova Bay;4.0
+706;Apartamentos Marina - Palmanova;2.0
+707;Apartamentos Don Miguel;2.0
+708;Globales Costa de la Calma;3.0
+709;Mac Surfing Playa;5.0
+710;Apartamentos Siesta 1;5.0
+711;Hotel Ilusion Calma & Spa;3.0
+712;Aparthotel Ona Cala Pi Club;3.0
+713;Nautic Hotel & Spa;4.0
+714;Globales Palmanova;4.0
+715;Mix BR (Bahía Real) Apartments;3.0
+716;Hoposa Apartments Pollensamar;3.0
+717;Universal Hotel Laguna;4.0
+718;Santa Clara Urban Hotel & Spa;4.0
+719;Zoëtry Mallorca;5.0
+720;Zhero Palma;3.0
+721;UR Palacio Avenida;4.0
+722;Globales Verdemar Apartments;3.0
+723;Tacande Portals Wellness & Relax;4.0
+724;Isla del Sol;2.0
+725;Apartamentos Inn;2.0
+726;Mar Brava;3.0
+727;Playas Ca's Saboners;3.0
+728;Hotel Bellavista & Spa;3.0
+729;Hotel Las Arenas;4.0
+730;Sol Romantica;3.0
+731;Sun Beach;2.0
+732;Es Blau Hotel Des Nord;4.0
+733;Vista Club;3.0
+734;Holiday Park;2.0
+735;Playas del Rey;3.0
+736;Ca'n Bonico;4.0
+737;Hostal HPC Portocolom;1.0
+738;Sol Calas de Mallorca;4.0
+739;Sotavento;3.0
+740;Apartments Econotel Kensington ;1.0
+741;Oriola;2.0
+742;Hostal Blanca;1.0
+743;Universal Hotel Bikini;3.0
+744;Naika Studios & Apartments;2.0
+745;Martinez Apartments;2.0
+746;Sa Franquesa Nova Hotel Rural;4.0
+747;Hoposa Villaconcha;4.0
+748;Finca Hotel Can Estades;3.0
+749;Apartamentos Mallorca Portofino;3.0
+750;Principal Son Amoixa;4.0
+751;Puerto Azul Suite Hotel;4.0
+752;Africamar;3.0
+753;Inturotel Sa Marina;4.0
+754;Valentin Paguera Hotel;3.0
+755;Valentin Paguera Suites;3.0
+756;Cabot Hobby Club Apartments;3.0
+757;Hotel Palia Sa Coma Playa;4.0
+758;allsun App.-Hotel Estrella & Coral de Mar;5.0
+759;Cabot Las Velas Apartments;3.0
+760;Hotel Alea;3.0
+761;Don Pepe;3.0
+762;BH Mallorca Resort Affiliated by FERGUS;3.0
+763;Mar Hotels Playa Mar & Spa;4.0
+764;Canyamel Sunrise Apartments;3.0
+765;Cap Rocat;5.0
+766;Villa Singala;3.0
+767;Globales Apartamentos Nova;3.0
+768;Cala d'Or Playa;3.0
+769;Solecito Apartamentos;2.0
+770;Hostal Lido;1.0
+771;Sol de Alcudia Apartamentos;3.0
+772;Sant Salvador Hostatgeria;3.0
+773;Marins Playa Suites;4.0
+774;Colon Palma;3.0
+775;Can Cera;5.0
+776;Es Riquers;3.0
+777;Villa Palmer;3.0
+778;Fontsanta Hotel Thermal Spa & Wellness;5.0
+779;Jumeirah Port Soller Hotel & Spa;5.0
+780;Predi Son Jaumell Hotel Rural;5.0
+781;Hotel Diamant;4.0
+782;La Santa Maria Hotel;3.0
+783;Mirador & Artmadams;4.0
+784;Mar Calma;4.0
+785;La Victoria Hostatgeria;3.0
+786;Can Vent Alcudia;4.0
+787;Alcudia Petit;3.0
+788;HM Balanguera;4.0
+789;Playa Esperanza Resort Affiliated by Melia;4.0
+790;Palma Suites;4.0
+791;Calatrava Boutique;5.0
+792;Sol Port Soller;2.0
+793;Gavimar Ariel Chico Club & Resort;3.0
+794;Cort;4.0
+795;Castell Son Claret;5.0
+796;Hostal Cuba;4.0
+797;Hotel Coronado Thalasso & Spa;5.0
+798;Whala Beach;3.0
+799;Apartamentos Club Sa Coma;3.0
+800;Ferrer Tamarindos Apartamentos;2.0
+801;Son Moll Sentits Hotel & Spa;4.0
+802;Hotel Brisa Marina;3.0
+803;Melbeach Hotel & Spa;3.0
+804;Trendhotel Alcudia;3.0
+805;Aparthotel Portodrach;4.0
+806;Ona Garden Lago;3.0
+807;Es Convent;5.0
+808;Leonardo Boutique Hotel Mallorca Port Portals;4.0
+809;Son Cosmet;4.0
+810;Sa Cabana Hotel Rural & SPA;4.0
+811;Jupiter Hotel;3.0
+812;Sis Pins;3.0
+813;Cristina Apartamentos;2.0
+814;Apartamentos Llevant;5.0
+815;Ona Aucanada Club Aparthotel;3.0
+816;Ben Hur;3.0
+817;Nura Boreal;3.0
+818;BH Mallorca Apartments;3.0
+819;Globales Simar;3.0
+820;Can Alomar Luxury Boutique;5.0
+821;allsun App.-Hotel Orquidea Playa;5.0
+822;Born;2.0
+823;S'Hort de son Caulelles;4.0
+824;Fincahotel Binibona Parc Natural;4.0
+825;Albellons Parc Natural;4.0
+826;Iberostar Ciudad Blanca Alcudia Apartamentos;4.0
+827;Finca Son Mercadal;3.0
+828;Ca's Papa Sweet Hotel Valldemossa;4.0
+829;Duvabitat Apartments;3.0
+830;Stil Bonsai;3.0
+831;Segles;5.0
+832;Castell Dels Hams;4.0
+833;Hotel Honucai;4.0
+834;Ona Village Cala D'Or;3.0
+835;Posada Terra Santa;4.0
+836;Santuari de Cura;3.0
+837;Zafiro Palace Alcudia;5.0
+838;Iberostar Cala Millor;5.0
+839;Apartamentos Venecia;5.0
+840;Hotel Triton Beach;4.0
+841;LoftOtel Canet;4.0
+842;R2 Bahia Cala Ratjada Design Hotel;4.0
+843;Sant Francesc Hotel Singular;5.0
+844;The Hostal;1.0
+845;Hotel Verónica & Apartaments Midas;3.0
+846;Apartamentos Balear Beach;1.0
+847;Hotel Mix Colombo;3.0
+848;Vintage Hotel Bella Colina est. 1953;3.0
+849;Es Revellar Art Resort;5.0
+850;Isla de Cabrera Aparthotel & Hotel;4.0
+851;Hoposa Cultural Boutique;2.0
+852;Son Perdiu;3.0
+853;Mar Hotels Paguera & Spa;4.0
+854;COOEE Cala Ratjada;4.0
+855;Iberostar Selection Llaut Palma - Adults Only;5.0
+856;Art Hotel Palma;4.0
+857;Cap Vermell Grand Hotel;5.0
+858;Can Feliu Ecoagroturismo;4.0
+859;Hotel Club Cala Murada;3.0
+860;AluaSun Cala Antena;3.0
+861;Llaüt Boutique Hotel;4.0
+862;Marriott's Club Son Antem;5.0
+863;Sol Barbados;4.0
+864;Playamar Apartments;2.0
+865;PlayaMar Hotel;2.0
+866;Hotel Garbada & Complex;2.0
+867;Seasun Far;3.0
+868;Canyamel Park Hotel & Spa;4.0
+869;Illa d'Or Hotel & Illa d'Or Club;4.0
+870;MLL Palma Bay Club Resort;3.0
+871;Meliá Calviá Beach;4.0
+872;Nakar Hotel;4.0
+873;Zafiro Palace Palmanova;5.0
+874;Hipotels Gran Playa De Palma;4.0
+875;Hipotels Playa de Palma Palace Hotel & Spa;5.0
+876;Caleia Talayot & Spa;5.0
+877;AluaSoul Carolina;4.0
+878;Hotel Creta Paguera;3.0
+879;Pleta De Mar Luxury Hotel by Nature;5.0
+880;Kyrat Amàrac Suites;4.0
+881;Yourhouse Alcudia;2.0
+882;Yourhouse Acapulco Apartamentos;1.0
+883;Es Corte Vell Inland Hotel;4.0
+884;Grupotel Los Principes & Spa  Hotel;4.0
+885;Agroturismo Ca'n Gaia;3.0
+886;Boutique Hotel Sant Jaume;5.0
+887;BO Hotel;4.0
+888;Brick Hotel;3.0
+889;Meliá Palma Bay;4.0
+890;Hotel Turixant;4.0
+891;Hotel Es Princep;5.0
+892;Hotel El Guía;2.0
+893;Mirabo de Valldemossa;4.0
+894;Hotel Sa Vall Valldemossa;3.0
+895;Agroturismo Ses Vistes;5.0
+896;Embat Hostel;2.0
+897;Ca'n Abril;4.0
+898;Hostal Bona Vista;5.0
+899;Metropolitan Playa JUKA Aparthotel;4.0
+900;Can Ribera by Zafiro;4.0
+901;INNSiDE Calviá Beach;4.0
+902;Sa Torre;5.0
+903;whala!isabela;3.0
+904;Iberostar Grand Portals Nous;5.0
+905;Miramar;4.0
+906;Protur Palmeras Playa Hotel;4.0
+907;Sauló Beach Hotel;2.0
+908;Ses Fotges;3.0
+909;Ses Roquetes;2.0
+910;Hipotels Cala Bona Club;4.0
+911;Aparthotel Marina Drach;2.0
+912;Alqueria Blanca;4.0
+913;TUI BLUE Alcudia Pins;4.0
+914;Stil Mar y Paz;2.0
+915;Hostal Diana;1.0
+916;Mon Boutique Hotel;4.0
+917;Es Quatre Cantons;4.0
+918;Hipotels Coma Gran;4.0
+919;Son Galceran;4.0
+920;Torre Playa;3.0
+921;Apartamentos Don Miguel & Hotel Panorama;2.0
+922;Hotel Fonda Llabres;2.0
+923;Hostal Apuntadores;2.0
+924;Levante;4.0
+925;Vista Park Hotel;3.0
+926;The Lis;2.0
+927;THB Gran Bahía Hotel;4.0
+928;Forn Nou;3.0
+929;HSM Solivera;4.0
+930;Flor Los Almendros;5.0
+931;Hotel Son Ametler;4.0
+932;Fleming Hostel;2.0
+933;EIX Lagotel Apartamentos;4.0
+934;Apartamentos Alborada;1.0
+935;Rafa Nadal Sport Residence;5.0
+936;Hotel Casablanca;3.0
+937;Agroturisme Es Picot;3.0
+938;Hotel The Sky;4.0
+939;Singular Hostel By Eurotels;2.0
+940;Hotel Gloria De Sant Jaume;5.0
+941;Senator Cala Millor;4.0
+942;New Can Furios;4.0
+943;Palma Beach Hotel & Apt;2.0
+944;Cases de Son Barbassa;4.0
+945;EIX Lagotel Hotel;4.0
+946;Santuari de Lluc;1.0
+947;azuLine Hotel Palmanova Garden;2.0
+948;Son Caliu Apartamentos;1.0
+949;S'Estelrica Finca Hotel;4.0
+950;Summum Prime Boutique Hotel;5.0
+951;ICON Rosetó;5.0
+952;Hotel Morlans & Morlans Garden & Suites;3.0
+953;Inturotel Cala Azul Park & Esmeralda Park;3.0
+954;Can Bordoy Gran House & Garden;5.0
+955;Protur Naisa Palma;4.0
+956;Hotel Creu de Tau Art & Spa;5.0
+957;La Santamaría Apartamentos;3.0
+958;Yartan Boutique Hotel;4.0
+959;Petit Hotel Sant Miquel;4.0
+960;Hotel The Place;4.0
+961;Sol i Vida;4.0
+962;Eques Petit Resort;2.0
+963;Protur Bonamar;4.0
+964;Finca Serena;5.0
+965;Fil Suites;5.0
+966;Forum Boutique Hotel & Spa;4.0
+967;Mar Salada Apartments;5.0
+968;Som Ars Magna Bleisure Hotel;4.0
+969;Cala Morlanda Estudios;3.0
+970;YourHouse Port;1.0
+971;Hotel El Llorenc Parc De La Mar;5.0
+972;Ca Sa Tieta;3.0
+973;Hotel Soller Plaza;4.0
+974;Zafiro Palace Andratx;5.0
+975;Seasun Aniram;4.0
+976;INNER Kompas Studios;3.0
+977;THB Gran Bahía Apartments;3.0
+978;Terreno Studios;4.0
+979;Aubamar Suites & Spa;5.0
+980;Hotel Rocamarina;4.0
+981;Mariner Club Apartments;3.0
+982;Grupotel Playa Camp de Mar;4.0
+983;Hotel Nou Baleares;4.0
+984;Lluna Aqua Hotel;4.0
+985;Hotel Ynaira;5.0
+986;Hostal Beijuan;2.0
+987;Hostal Residencia San Francisco;3.0
+988;Palacio Can Marqués;5.0
+989;Senda Caimari Hotel;1.0
+990;Ses Cases Noves Finca;3.0
+991;Beach Inn;1.0
+992;New Art Hostel Albergue Juvenil;1.0
+993;Casa Galileo;1.0
+994;Edificio PrÍncipe;1.0
+995;Sofia Alcúdia Beach;4.0
+996;Samaritana Suites;4.0
+997;The Boc Suites;4.0
+998;Hotel Sabina & Suites;4.0
