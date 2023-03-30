@@ -30,16 +30,17 @@ We provide it only to you to save you some time :)
 
 Either way you have to solve part 1 of the problem (structuring the data and making it searchable).
 We do not provide you with a solution for that we only give you some requirements (see next section).
+You can freely choose your language, frameworks and infrastructure.
 
 ### Minimal requirements
 
 If you take a closer look at the SPA you can see that you need to support two types of search queries:
 
-1) A user wants to get a list of unique hotels that have at least one offer for a given search. A search consists of a
-   list of parameters (list of start departureAirports, earliestDepartureDate, latestReturnDate, countAdults, countChildren, duration).
-   As every hotel is only once in that result list, only the cheapest offer for every hotel should be shown here.
-2) After taking a look at the results from query 1 a user might select a single hotel. This second query should now
-   return a list of available offers for that hotel only. Remember: in query 1 only the cheapest offer has been loaded.
+1) A user wants to get a list of unique hotels that have at least one offer for a given search in order to get an overview over the cheapest hotels. A search consists of a
+   list of parameters (list of `departureAirports`, `earliestDepartureDate`, `latestReturnDate`, `countAdults`, `countChildren`, `duration`).
+   For each hotel there may be several offers. As every hotel is only once in that result list, only the cheapest offer for every hotel should be shown here.
+2) After taking a look at the results from query 1 a user might select a single hotel in order to get an overview over all the offers for the selected hotel. This second query should now
+   return a list of available offers for that one hotel only. Remember: in query 1 only the cheapest offer has been loaded.
    Now we want to get all the offers.
 
 Both of these use cases are handled by the minimal SPA (it has two different pages, one for each use case).
@@ -101,7 +102,7 @@ Which offers from the table above do match if I want to go to Mallorca with one 
 an offer for two adults) for 7 days somewhere in July or August? As I am living in Hamburg (airport code for Hamburg is
 HAM), I also want to start and end my trip there.  
 The 2nd and the 7th offer from the table above match the time when I want to travel and are valid for 2 adults. Only the
-7th offer includes the right airports (remember, I want to start my trip in Hamburg). So if your application only knows
+7th offer includes the right airports (remember, I want to start and end my trip in Hamburg). So if your application only knows
 the 10 offers from the table above the result page would only display a single offer to me (the 7th one).
 
 ### Hotels
