@@ -1,5 +1,9 @@
 # CHECK24 GenDev Holiday Challenge
 
+**Note:**
+This is the challenge for the **3rd round** of the [GenDev Scholarship](https://check24.de/gen-dev).
+Applications for this round have been closed. For the next round starting in autumn of 2023 this challenge will change.
+
 > "*Summer is coming, let's go on holidays.*"
 
 Searching for a nice place to go and planning your next holiday is not just a fun activity for a lazy afternoon - it is
